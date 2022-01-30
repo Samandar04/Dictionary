@@ -3,17 +3,28 @@ import styled from "styled-components";
 export const Wrap=styled.div`
 width: 1200px;
 margin: auto;
+position: relative;
 margin-top: 20px;
-display: flex;
+/* display: flex; */
 `
 export const Card1=styled.div`
 width: 48%;
+
 position: relative;
 border: 1px solid lightgrey;
 &:focus-within{
 outline: 1px auto yellowgreen;
 }
+@media only screen and (max-width: 768px){
+     position: relative;
+width: 48%;
 
+}
+@media only screen and (max-width: 425px){
+    position: relative;
+width: 48%;
+
+} 
 `
 export const Textarea=styled.textarea`
     width: 100%;
@@ -33,12 +44,14 @@ font-size: 20px;
 
 resize: none;
  @media only screen and (max-width: 768px){
+     position: relative;
 font-size: 18px;
 &::placeholder{
 font-size: 18px;
 }
 }
 @media only screen and (max-width: 425px){
+    position: relative;
 font-size: 15px;
 &::placeholder{
 font-size: 15px;
@@ -53,10 +66,32 @@ export const Select=styled.select`
     option{
         margin-top: 10px;
     }
+    @media only screen and (max-width: 768px){
+        position: absolute;
+        width: 150px;
+    padding: 0;
+    height: 30px;
+        top: 10px;
+    left: 10px;
+
+}
+@media only screen and (max-width: 425px){
+    width: 150px;
+    padding: 0;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+}
+
 ` 
 export const Card2=styled.div`
 width: 48%;
 margin-left: 10px;
+position: absolute;
+left: 50%;
+top: 0;
 `
 
 export const TranslateColWrapper = styled.div`
