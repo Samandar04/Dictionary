@@ -84,6 +84,16 @@ export const Select=styled.select`
     left: 10px;
 
 }
+@media only screen and (max-width: 385px){
+    width: 120px;
+    margin-top: 5px;
+    padding: 0;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+}
 
 ` 
 export const Card2=styled.div`
