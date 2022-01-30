@@ -5,7 +5,7 @@ function Navbar() {
     return (
         <Navbarwrap>
             Yandex dictionary
-            <span>by Samandar</span>
+            <span><a href="https://t.me/Karimov_S7"> by Samandar </a></span>
         </Navbarwrap>
     )
 }

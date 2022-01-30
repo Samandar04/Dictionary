@@ -11,6 +11,10 @@ span{
     margin-left: 10px;
     color: gray;
     font-size: 18px;
+    a{
+        text-decoration: none;
+        color: gray;
+    }
 }
 @media only screen and (max-width: 942px){
 font-size: 50px;
